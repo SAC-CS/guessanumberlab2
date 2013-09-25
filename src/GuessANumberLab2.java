@@ -20,12 +20,9 @@ public class GuessANumberLab2 {
 		else {
 			if (x < y )
 			{System.out.println("Too high guess a lower number");}
-			else {
-				if (x > y)
-				{System.out.println("Too low guess another number");}
+			if (x > y)
+			{System.out.println("Too low guess another number");}
 
-		}
 		}
 	}
-
 }
