@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class GuessANumberLab2 {
 
 	public static void main(String[] args)
-	{
-	
+		{
+		
+		for (int round = 0; round<3; round ++){
+		
 		int x = 0 + (int) ( Math.random() * 10 );
 		Scanner input = new Scanner( System.in );
-
-		//variables
 
 		System.out.println("Guess a number from 0-9: ");
 
@@ -22,9 +22,10 @@ public class GuessANumberLab2 {
 			{System.out.println("Too high guess a lower number");}
 			else {
 				if (x > y)
-				{System.out.println("Too low guess another number");}
+				{System.out.println("Too low guess a higher number");}
 
 		}
 	}
+}
 }
 }
